@@ -972,8 +972,14 @@ header {
 }
 
 .project-image {
-    height: 200px;
-    overflow: hidden;
+    height: auto;
+    overflow: visible;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .project-placeholder {
