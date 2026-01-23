@@ -198,11 +198,16 @@ header {
 .mobile-menu-btn {
     display: none;
     flex-direction: column;
-    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
     background: transparent;
     border: none;
     cursor: pointer;
     padding: 10px;
+    width: 40px;
+    height: 40px;
+    position: relative;
 }
 
 .mobile-menu-btn span {
@@ -210,10 +215,25 @@ header {
     height: 3px;
     background: var(--texas-blue);
     transition: all 0.3s ease;
+    display: block;
+    position: absolute;
+}
+
+.mobile-menu-btn span:nth-child(1) {
+    top: 10px;
+}
+
+.mobile-menu-btn span:nth-child(2) {
+    top: 18px;
+}
+
+.mobile-menu-btn span:nth-child(3) {
+    top: 26px;
 }
 
 .mobile-menu-btn.active span:nth-child(1) {
-    transform: rotate(45deg) translate(8px, 8px);
+    transform: rotate(45deg);
+    top: 18px;
 }
 
 .mobile-menu-btn.active span:nth-child(2) {
@@ -221,7 +241,8 @@ header {
 }
 
 .mobile-menu-btn.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -7px);
+    transform: rotate(-45deg);
+    top: 18px;
 }
 
 /* Mobile Menu - FIXED */
@@ -229,11 +250,14 @@ header {
     display: none;
     background: var(--texas-blue);
     padding: 0;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 112px;
     left: 0;
     width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    max-height: calc(100vh - 112px);
+    overflow-y: auto;
 }
 
 .mobile-menu.active {
