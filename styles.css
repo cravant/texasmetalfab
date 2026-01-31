@@ -1015,7 +1015,6 @@ header {
 .contact-cta {
     margin-top: 30px;
     padding-top: 30px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .contact-cta p {
@@ -1023,7 +1022,7 @@ header {
     margin-bottom: 15px;
 }
 
-/* Contact Form - FIXED */
+/* Contact Form */
 .contact-form-wrapper {
     width: 100%;
     max-width: 100%;
