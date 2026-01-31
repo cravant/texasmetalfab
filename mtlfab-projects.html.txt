@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View completed metal building projects by Your Name Here. Commercial warehouses, manufacturing facilities, steel structures.">
+    <title>Projects | Your Name Here</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-top">
+            <div class="container header-container">
+                <div class="header-phone">
+                    <span class="phone-icon">📞</span> Call Now: xxx-xxx-xxxx
+                </div>
+                <div class="header-location">Metal Building Experts</div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <div class="logo-image">
+                            <div class="logo-placeholder">YNH</div>
+                        </div>
+                        <div class="logo-text">
+                            <h1>YOUR NAME HERE</h1>
+                            <p>Structural Steel & Fabrication</p>
+                        </div>
+                    </div>
+                    <nav id="main-nav">
+                        <a href="index.html">Home</a>
+                        <a href="services.html">Services</a>
+                        <a href="projects.html" class="active">Projects</a>
+                        <a href="reviews.html">Reviews</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Projects</h1>
+            <p>Quality work that speaks for itself</p>
+        </div>
+    </section>
+
+    <!-- Projects Gallery -->
+    <section class="section">
+        <div class="container">
+            <div class="gallery-intro">
+                <p>From small fabrication jobs to complete building systems, we've delivered hundreds of projects. Here's a sample of our recent work.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Project 1 -->
+                <div class="gallery-item">
+                    <img src="images/lodge.jpg" alt="Lodge">
+                    <div class="gallery-label">Residential Lodge</div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="gallery-item">
+                    <img src="images/barn.jpg" alt="Barn">
+                    <div class="gallery-label">Barn</div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="gallery-item">
+                    <img src="images/structure.jpg" alt="Steel Beam Structuring">
+                    <div class="gallery-label">Steel Beam Structuring</div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="gallery-item">
+                    <img src="images/fencedbarn.jpg" alt="Barn & Steel Pavillion">
+                    <div class="gallery-label">Barn & Steel Pavillion</div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="gallery-item">
+                    <img src="images/pavillion.jpg" alt="Picnic Pavillion">
+                    <div class="gallery-label">Picnic Pavillion</div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="gallery-item">
+                    <img src="images/redbarn.jpg" alt="Red & White Barn">
+                    <div class="gallery-label">Red & White Barn</div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="gallery-item">
+                    <img src="images/port.jpg" alt="White & Black Carport/Garage">
+                    <div class="gallery-label">White & Black Carport/Garage</div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="gallery-item">
+                    <img src="images/greybarn.jpg" alt="Grey-Maroon-White Steel Building">
+                    <div class="gallery-label">Grey-Maroon-White Steel Building</div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="gallery-item">
+                    <img src="images/scissor.jpg" alt="Barn Steel Framing">
+                    <div class="gallery-label">Barn Steel Framing</div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="gallery-item">
+                    <img src="images/grayportandgarage.jpg" alt="Large Grey Garage & Carport">
+                    <div class="gallery-label">Large Grey Garage & Carport</div>
+                </div>
+
+                <!-- Project 11 -->
+                <div class="gallery-item">
+                    <img src="images/whitesteel.jpg" alt="White & Black Steel Building">
+                    <div class="gallery-label">White & Black Steel Building</div>
+                </div>
+
+                <!-- Project 12 -->
+                <div class="gallery-item">
+                    <img src="images/barndoors.jpg" alt="Red Sliding Barn Doors">
+                    <div class="gallery-label">Red Sliding Barn Doors</div>
+                </div>
+
+                <!-- Project 13 -->
+                <div class="gallery-item">
+                    <img src="images/redsteel.jpg" alt="Copper Steel Beam Barn Interior">
+                    <div class="gallery-label">Copper Steel Beam Barn Interior</div>
+                </div>
+
+                <!-- Project 14 -->
+                <div class="gallery-item">
+                    <img src="images/wbarn.jpg" alt="Barn with Patio & "W" Frame">
+                    <div class="gallery-label">Barn with Patio & "W" Frame</div>
+                </div>
+
+                <!-- Project 15 -->
+                <div class="gallery-item">
+                    <img src="images/brownbarn.jpg" alt="Small Brown Barn">
+                    <div class="gallery-label">Small Brown Barn</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Stats -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">By the Numbers</h2>
+            <div class="trust-signals">
+                <div class="trust-item">
+                    <span class="trust-number">500+</span>
+                    <span class="trust-label">Projects Completed</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">2M+</span>
+                    <span class="trust-label">Square Feet Built</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">25+</span>
+                    <span class="trust-label">Years Experience</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">100%</span>
+                    <span class="trust-label">Quality Focused</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Types -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Industries We Serve</h2>
+            <p class="section-subtitle">Commercial and industrial clients</p>
+            
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">🏭</div>
+                    <h3>Manufacturing</h3>
+                    <p>Production facilities, assembly plants, and industrial operations</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">📦</div>
+                    <h3>Warehousing & Distribution</h3>
+                    <p>Storage facilities, distribution centers, and logistics hubs</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">🌾</div>
+                    <h3>Agriculture</h3>
+                    <p>Equipment storage, livestock facilities, and grain storage</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">🏪</div>
+                    <h3>Retail & Commercial</h3>
+                    <p>Retail buildings, showrooms, and commercial spaces</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">🔧</div>
+                    <h3>Maintenance & Repair</h3>
+                    <p>Auto shops, equipment repair, and maintenance facilities</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">⚡</div>
+                    <h3>Utilities & Energy</h3>
+                    <p>Equipment storage, operations buildings, and support facilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let's Build Your Next Project</h2>
+                <p>Get started with a free consultation</p>
+                <a href="tel:xxxxxxxxxx" class="cta-button cta-light">
+                    <span class="btn-icon">📞</span> xxx-xxx-xxxx
+                </a>
+                <a href="contact.html" class="cta-button cta-outline">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-placeholder">YNH</div>
+                        <div>
+                            <h3>YOUR NAME HERE</h3>
+                            <p>Structural Steel & Fabrication</p>
+                        </div>
+                    </div>
+                    <p class="footer-tagline">Building quality structures, one at a time since 1995.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="services.html#doors">Commercial Doors</a>
+                    <a href="services.html#railings">Railings</a>
+                    <a href="services.html#trusses">Steel Roof Trusses</a>
+                    <a href="services.html#buildings">Pre-Engineered Buildings</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><strong>Phone:</strong><br>xxx-xxx-xxxx</p>
+                    <p><strong>Hours:</strong><br>Monday - Friday: 7AM - 6PM<br>Saturday: 8AM - 2PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Your Name Here. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Call Button (Mobile) -->
+    <a href="tel:xxxxxxxxxx" class="sticky-call" id="sticky-call">
+        <span class="btn-icon">📞</span> Call Now
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

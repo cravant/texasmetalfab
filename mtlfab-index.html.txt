@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Name Here - Metal construction experts. Specializing in pre-engineered steel buildings, structural fabrication, doors, railings, and roof trusses. Serving commercial and industrial clients since 1995.">
+    <meta name="keywords" content="metal buildings, steel construction, pre-engineered buildings, steel fabrication, commercial construction">
+    <title>Your Name Here | Metal Construction & Steel Fabrication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-top">
+            <div class="container header-container">
+                <div class="header-phone">
+                    <span class="phone-icon">📞</span> Call Now: xxx-xxx-xxxx
+                </div>
+                <div class="header-location">Metal Building Experts</div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <div class="logo-image">
+                            <div class="logo-placeholder">YNH</div>
+                        </div>
+                        <div class="logo-text">
+                            <h1>YOUR NAME HERE</h1>
+                            <p>Structural Steel & Fabrication</p>
+                        </div>
+                    </div>
+                    <nav id="main-nav">
+                        <a href="index.html" class="active">Home</a>
+                        <a href="services.html">Services</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="reviews.html">Reviews</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>METAL BUILDINGS DONE RIGHT</h2>
+                <p class="tagline">Commercial-Grade Steel Fabrication & Installation</p>
+                <p class="subtext">Serving contractors, developers, and industrial clients since 1995</p>
+                <div class="cta-buttons">
+                    <a href="tel:xxxxxxxxxx" class="cta-button cta-primary">
+                        <span class="btn-icon">📞</span> Call Now: xxx-xxx-xxxx
+                    </a>
+                    <a href="contact.html" class="cta-button cta-secondary">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Propositions -->
+    <section class="section">
+        <div class="container">
+            <div class="value-props">
+                <div class="value-prop">
+                    <div class="value-icon">🛡️</div>
+                    <h3>Built to Last</h3>
+                    <p>Commercial-grade materials and engineering. Every structure is designed to withstand harsh weather and heavy industrial use.</p>
+                </div>
+                <div class="value-prop">
+                    <div class="value-icon">⚡</div>
+                    <h3>On Time, On Budget</h3>
+                    <p>We understand deadlines matter. Pre-engineered solutions mean faster construction without sacrificing quality.</p>
+                </div>
+                <div class="value-prop">
+                    <div class="value-icon">🏆</div>
+                    <h3>Industry Expertise</h3>
+                    <p>Over 25 years serving businesses. We know the codes, climate challenges, and what works.</p>
+                </div>
+                <div class="value-prop">
+                    <div class="value-icon">🔧</div>
+                    <h3>Complete Service</h3>
+                    <p>From design and fabrication to installation and finishing. One team, one point of contact, zero hassle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">What We Build</h2>
+            <p class="section-subtitle">Metal construction solutions for commercial and industrial applications</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚪</div>
+                    <h3>Commercial Doors</h3>
+                    <p>Aluminum, bronze, and stainless steel doors built for high-traffic industrial use.</p>
+                    <a href="services.html#doors" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Railings</h3>
+                    <p>OSHA-compliant railing systems for stairways, mezzanines, and elevated platforms.</p>
+                    <a href="services.html#railings" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🗝️</div>
+                    <h3>Steel Roof Trusses</h3>
+                    <p>Engineered trusses for long-span applications and heavy load requirements.</p>
+                    <a href="services.html#trusses" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Pre-Engineered Buildings</h3>
+                    <p>Complete metal building systems from foundation to finish.</p>
+                    <a href="services.html#buildings" class="service-link">Learn More →</a>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="services.html" class="cta-button cta-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Signals -->
+    <section class="section">
+        <div class="container">
+            <div class="trust-signals">
+                <div class="trust-item">
+                    <span class="trust-number">25+</span>
+                    <span class="trust-label">Years in Business</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">500+</span>
+                    <span class="trust-label">Projects Completed</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">100%</span>
+                    <span class="trust-label">Quality Focused</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">24/7</span>
+                    <span class="trust-label">Project Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Recent Projects</h2>
+            <p class="section-subtitle">Quality work that speaks for itself</p>
+            
+            <div class="featured-projects">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/lodge.jpg" alt="Lodge">
+                    </div>
+                    <div class="project-info">
+                        <h3>Lodge</h3>
+                        <p>A lodge with stone accents, a patio, and an inviting fireplace</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/barn.jpg" alt="Barn">
+                    </div>
+                    <div class="project-info">
+                        <h3>Barn</h3>
+                        <p>A barn with stone accents, large statement doors, and corrugated metal siding</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/structure.jpg" alt="Steel Beam Structuring">
+                    </div>
+                    <div class="project-info">
+                        <h3>Steel Beam Structuring</h3>
+                        <p>Steel beam framing built for strength and durability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="projects.html" class="cta-button cta-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Call us today for a free consultation and quote</p>
+                <a href="tel:xxxxxxxxxx" class="cta-button cta-light">
+                    <span class="btn-icon">📞</span> xxx-xxx-xxxx
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-placeholder">YNH</div>
+                        <div>
+                            <h3>YOUR NAME HERE</h3>
+                            <p>Structural Steel & Fabrication</p>
+                        </div>
+                    </div>
+                    <p class="footer-tagline">Building quality structures, one at a time since 1995.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="services.html#doors">Commercial Doors</a>
+                    <a href="services.html#railings">Railings</a>
+                    <a href="services.html#trusses">Steel Roof Trusses</a>
+                    <a href="services.html#buildings">Pre-Engineered Buildings</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><strong>Phone:</strong><br>xxx-xxx-xxxx</p>
+                    <p><strong>Hours:</strong><br>Monday - Friday: 7AM - 6PM<br>Saturday: 8AM - 2PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Your Name Here. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Call Button (Mobile) -->
+    <a href="tel:xxxxxxxxxx" class="sticky-call" id="sticky-call">
+        <span class="btn-icon">📞</span> Call Now
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

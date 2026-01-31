@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read reviews from satisfied Your Name Here clients. Trusted by commercial and industrial customers for reliable metal construction.">
+    <title>Reviews | Your Name Here</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-top">
+            <div class="container header-container">
+                <div class="header-phone">
+                    <span class="phone-icon">📞</span> Call Now: xxx-xxx-xxxx
+                </div>
+                <div class="header-location">Metal Building Experts</div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <div class="logo-image">
+                            <div class="logo-placeholder">YNH</div>
+                        </div>
+                        <div class="logo-text">
+                            <h1>YOUR NAME HERE</h1>
+                            <p>Structural Steel & Fabrication</p>
+                        </div>
+                    </div>
+                    <nav id="main-nav">
+                        <a href="index.html">Home</a>
+                        <a href="services.html">Services</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="reviews.html" class="active">Reviews</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="reviews.html" class="active">Reviews</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Client Reviews</h1>
+            <p>What our customers say about working with us</p>
+        </div>
+    </section>
+
+    <!-- Review Stats -->
+    <section class="section">
+        <div class="container">
+            <div class="review-stats">
+                <div class="stat-card">
+                    <div class="stat-number">4.2</div>
+                    <div class="stat-stars">★★★★★</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Five-Star Reviews</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Charlie & Laurie Hinds are the best! They just completed a new shop for us and they did an awesome job. Everyone involved in the project was detail, oriented, and displayed excellent craftsmanship. Thanks for the great job."</p>
+                    <p class="testimonial-author">Terry Krueger</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Excellent professional quality workmanship is a priority with Hinds Buildings!  Courteous and friendly, turn-key service.  Charlie was very helpful with everything from choosing a location for our Metal Building to finalizing and inspecting the finished product.  His construction crew were professional and quality oriented.  I highly recommend Hinds Metal Buildings!"</p>
+                    <p class="testimonial-author">BDavis Martin</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Hinds Construction Company deserves more than a 5 star rating. They are a top-notch company that can be depended on to do the job right. We had our carport relocated and all the crews they used were skillful, detail oriented and obliging.
+Thank you, Charlie & Laurie Hinds, for getting our job done timely with the patience of truly caring folks."</p>
+                    <p class="testimonial-author">Marie Keearns</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The entire staff of Hinds Metal Buildings is very professional and competent.  We had a 2 story home constructed, and the workers were knowledgeable, methodical and very neat.  Did a great job, and we have had many compliments on the structure.  Liked it so much that we asked them to come back to add a carport.  Recommend them without hesitation."</p>
+                    <p class="testimonial-author">Maria Zanfardino</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Hinds Metal Buildings recently built an 80 unit self storage facility for us.  They were professional to work with and did everything they could to get our buildings built in a timely manner during a very wet winter. I would and do highly recommend them for all of your metal building needs."</p>
+                    <p class="testimonial-author">Karyn Margos</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"We have used Hinds Metal Building for multiple jobs, both commercial and residential..always had a wonderful experience with them.  They are extremely professional, prompt and honest.  Would highly recommend them for any building project!"</p>
+                    <p class="testimonial-author">Paula West</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The owner's of Hinds Metal Building run a top notch business. Having a shop and house built by them and always great work. From the very beginning until the building is finished you can count on them to take care of business."</p>
+                    <p class="testimonial-author">Wesley Price</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The Hinds family builds a quality product and stands behind it. Charlie Hinds works with his customers to build whatever they envision and monitors the process every step of the way. No surprises! We highly recommend his company!"</p>
+                    <p class="testimonial-author">Sarah C.</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Charles will build you a high quality metal building.  His employees and contractors show up when they are scheduled and do high quality work.  He is not a salesman and isn't going to bs you through the process.  If you want someone to build you a really nice building and be upfront he would be the builder for you."</p>
+                    <p class="testimonial-author">Terry Mcalister</p>
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Clients Choose Us -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Why Clients Choose Us</h2>
+            <p class="section-subtitle">The reputation we've earned over 25 years</p>
+            
+            <div class="value-props">
+                <div class="value-prop">
+                    <div class="value-icon">🤝</div>
+                    <h3>Reliability</h3>
+                    <p>We show up when we say we will and deliver what we promise. No excuses, no surprises.</p>
+                </div>
+                <div class="value-prop">
+                    <div class="value-icon">⚙️</div>
+                    <h3>Craftsmanship</h3>
+                    <p>Every weld, every bolt, every detail done right. Our work stands the test of time.</p>
+                </div>
+                <div class="value-prop">
+                    <div class="value-icon">💼</div>
+                    <h3>Professionalism</h3>
+                    <p>Clear communication, accurate estimates, and respect for your schedule and budget.</p>
+                </div>
+                <div class="value-prop">
+                    <div class="value-icon">🏆</div>
+                    <h3>Experience</h3>
+                    <p>Over 25 years solving problems and delivering solutions. We've seen it all.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Join Our Satisfied Clients?</h2>
+                <p>Call today to discuss your project</p>
+                <a href="tel:xxxxxxxxxx" class="cta-button cta-light">
+                    <span class="btn-icon">📞</span> xxx-xxx-xxxx
+                </a>
+                <a href="contact.html" class="cta-button cta-outline">Get a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-placeholder">YNH</div>
+                        <div>
+                            <h3>YOUR NAME HERE</h3>
+                            <p>Structural Steel & Fabrication</p>
+                        </div>
+                    </div>
+                    <p class="footer-tagline">Building quality structures, one at a time since 1995.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="services.html#doors">Commercial Doors</a>
+                    <a href="services.html#railings">Railings</a>
+                    <a href="services.html#trusses">Steel Roof Trusses</a>
+                    <a href="services.html#buildings">Pre-Engineered Buildings</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><strong>Phone:</strong><br>xxx-xxx-xxxx</p>
+                    <p><strong>Hours:</strong><br>Monday - Friday: 7AM - 6PM<br>Saturday: 8AM - 2PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Your Name Here. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Call Button (Mobile) -->
+    <a href="tel:xxxxxxxxxx" class="sticky-call" id="sticky-call">
+        <span class="btn-icon">📞</span> Call Now
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
