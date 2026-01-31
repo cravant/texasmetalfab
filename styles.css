@@ -977,7 +977,8 @@ header {
 }
 
 .contact-detail:last-of-type {
-    border-bottom: none;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .contact-detail-label {
